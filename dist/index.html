@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Change Management | Deviniti</title>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons for professional imagery -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+            margin: 0;
+            overflow: hidden;
+            user-select: none;
+        }
+        .slide-viewport {
+            transition: opacity 0.4s ease, transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .slide-hidden {
+            opacity: 0;
+            transform: translateY(15px);
+        }
+        .slide-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        /* Custom scrollbar for inner slide content if overflow happens on small screens */
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #e2e8f0;
+            border-radius: 10px;
+        }
+    </style>
+  <script type="module" crossorigin src="/assets/index-DPdGUiAh.js"></script>
+</head>
+<body class="min-h-screen bg-slate-50 text-slate-900 flex flex-col">
+
+    <!-- Header -->
+    <header class="fixed top-0 left-0 right-0 h-16 bg-white/80 backdrop-blur-md z-40 border-b border-slate-200 px-8 flex items-center justify-between">
+        <div class="flex items-center gap-3">
+            <div class="bg-blue-600 text-white p-1.5 rounded-lg shadow-sm">
+                <i data-lucide="bot" class="w-6 h-6"></i>
+            </div>
+            <span class="font-black text-xl tracking-tighter text-slate-900">DEVINITI</span>
+        </div>
+        <div id="header-slide-title" class="text-xs font-bold text-slate-400 uppercase tracking-[0.2em] hidden lg:block">
+            <!-- Title Injected Here -->
+        </div>
+        <div class="flex items-center gap-4">
+            <div class="h-1.5 w-24 md:w-32 bg-slate-100 rounded-full overflow-hidden">
+                <div id="top-progress-bar" class="h-full bg-blue-600 transition-all duration-700 ease-in-out" style="width: 0%"></div>
+            </div>
+            <span id="progress-percent" class="text-xs font-bold text-slate-400 w-8">0%</span>
+        </div>
+    </header>
+
+    <!-- Main Presentation Stage -->
+    <main class="flex-1 relative mt-16 pb-24 flex items-center justify-center p-6 md:p-12">
+        <div id="slide-content" class="w-full max-w-6xl h-full flex flex-col justify-center slide-viewport slide-hidden">
+            <!-- Content Injected via JavaScript -->
+        </div>
+    </main>
+
+    <!-- Navigation Hub -->
+    <div class="fixed bottom-8 left-0 right-0 z-50 flex justify-center items-center gap-6">
+        <div class="bg-white/90 backdrop-blur-md shadow-2xl border border-slate-200 rounded-full px-6 py-3 flex items-center gap-4">
+            <button id="nav-prev" class="p-2 rounded-full hover:bg-slate-100 disabled:opacity-20 disabled:cursor-not-allowed transition-all" title="Previous (Left Arrow)">
+                <i data-lucide="chevron-left" class="w-6 h-6 text-slate-700"></i>
+            </button>
+
+            <div id="nav-dots" class="flex gap-2 items-center">
+                <!-- Dots Injected Here -->
+            </div>
+
+            <button id="nav-next" class="p-2 rounded-full hover:bg-slate-100 disabled:opacity-20 disabled:cursor-not-allowed transition-all" title="Next (Right Arrow / Space)">
+                <i data-lucide="chevron-right" class="w-6 h-6 text-slate-700"></i>
+            </button>
+        </div>
+        
+        <div class="absolute right-12 hidden md:block">
+            <span id="slide-index-label" class="text-xs font-bold text-slate-500 bg-white/80 px-4 py-2 rounded-full border border-slate-200 shadow-sm tracking-widest">
+                01 / 10
+            </span>
+        </div>
+    </div>
+
+    <!-- Interactive Hit-boxes for touch/mouse navigation -->
+    <button id="hitbox-left" class="fixed left-0 top-16 bottom-0 w-20 group flex items-center justify-center disabled:hidden">
+        <div class="p-3 rounded-full bg-white/40 backdrop-blur opacity-0 group-hover:opacity-100 transition-all border border-slate-200 -translate-x-4 group-hover:translate-x-0">
+            <i data-lucide="chevron-left" class="w-6 h-6 text-slate-600"></i>
+        </div>
+    </button>
+    <button id="hitbox-right" class="fixed right-0 top-16 bottom-0 w-20 group flex items-center justify-center disabled:hidden">
+        <div class="p-3 rounded-full bg-white/40 backdrop-blur opacity-0 group-hover:opacity-100 transition-all border border-slate-200 translate-x-4 group-hover:translate-x-0">
+            <i data-lucide="chevron-right" class="w-6 h-6 text-slate-600"></i>
+        </div>
+    </button>
+
+    <!-- Animated Background -->
+    <div class="fixed top-0 left-0 w-full h-full pointer-events-none -z-10 overflow-hidden">
+        <div class="absolute -top-[10%] -left-[10%] w-[50%] h-[50%] bg-blue-400/5 blur-[120px] rounded-full animate-pulse"></div>
+        <div class="absolute -bottom-[10%] -right-[10%] w-[50%] h-[50%] bg-indigo-400/5 blur-[120px] rounded-full animate-pulse" style="animation-delay: 2s;"></div>
+    </div>
+
+    <!-- Logic -->
+</body>
+</html>
