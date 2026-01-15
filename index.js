@@ -183,56 +183,69 @@ We use AI to bridge the gap to Tier 2: 'Risk-Informed.' This means move away fro
         `
     },
     {
-        title: "Use Case: DORA/NIS2 Mandatory Transition",
-        pptTitle: "Use Case: DORA/NIS2 Mandatory Transition",
-        pptBody: ["Context: EU Financial entity facing Oct 2024 compliance.", "Action: AI monitors EBA Technical Standards (RTS) in real-time.", "Mapping: Automating the linking of RTS to internal ICT risk controls.", "Impact: Moving from 'Informal Reactive' to 'Mandatory Compliant' in days, not months."],
-        speakerNotes: `Let's deep-dive into the DORA and NIS2 transition. Regulatory Change Management (RCM) is overwhelming because of the volume. AI brings speed to every stage. 
+        title: "Institutional Use Case: Cyber Security",
+        pptTitle: "Institutional Use Case: Cyber Security",
+        pptBody: [
+            "Scenario: New '72-Hour' Breach Reporting Law.",
+            "The Challenge: Aligning 5,000+ staff to a critical deadline.",
+            "Manual Risk: Emails ignored, SLAs missed, fines levied.",
+            "The AI Solution: Auto-updates Jira workflows to enforce new time limit.",
+            "Outcome: Compliance is code, not just policy."
+        ],
+        speakerNotes: `Let's discuss a real-world institutional use case. Imagine a new Cyber Security regulation passes that mandates: 'All data breaches must be reported within 72 hours.'
 
-Step 1 — Automated Monitoring: AI scans thousands of regulatory sources in real-time. Using AI regulatory intelligence, NLP engines detect new rules the moment they are published.
-Step 2 — NLP Interpretation: AI extracts meaning from complex legal documents, identifies obligations, and converts them into structured Jira data, summarizing 100-page RTS documents into actionable tasks.
-Step 3 — AI Regulatory Mapping: AI links new obligations directly to internal policies and controls in Confluence, highlighting exactly where documentation or training must be updated.
-Step 4 — AI Risk Scoring: Assigning risk categories based on deadlines and severity to prioritize high-risk updates like AML or cybersecurity patches.
-Step 5 — AI Workflow Automation: Automatically triggering remediation tasks in Jira once a new requirement is mapped.
-Step 6 — Audit Readiness: Generating detailed audit trails instantly for regulatory examinations. We move from 'Reactive Recovery' to 'Proactive Prevention' in days, not months.`,
+In the old manual world, this is a nightmare. Layers of bureaucracy, emails, and meetings. But when a breach actually happens at 2 AM, the engineer on call might follow an old playbook, miss the deadline, and the institution faces massive fines.
+
+With AI, the system monitors the law. It detects the '72-Hour' requirement and instantly finds your 'Incident Response' workflow in Jira. It proposes a change: 'Update SLA to 3 days.' Once approved, the tool itself enforces the law. We stop relying on human memory and start baking compliance directly into our operations.`,
         html: `
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 h-full items-stretch animate-content">
-                <div class="lg:col-span-2 flex flex-col gap-8">
-                    <div class="bg-blue-900 p-12 rounded-[3rem] text-white shadow-2xl flex-1 relative overflow-hidden">
-                        <div class="absolute top-0 right-0 p-10 opacity-10"><i data-lucide="landmark" class="w-40 h-40"></i></div>
-                        <h3 class="text-blue-400 font-bold uppercase tracking-widest mb-6">Institutional Use Case</h3>
-                        <h2 class="text-4xl font-black mb-8 leading-tight">Implementing Digital <br/>Operational Resilience (DORA)</h2>
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-                            <div class="space-y-4">
-                                <h4 class="text-xl font-bold border-b border-blue-700 pb-2">The Challenge</h4>
-                                <p class="text-blue-100 opacity-80 leading-relaxed">Managing 10,000+ third-party ICT service providers under new, strict EU resilience standards.</p>
-                            </div>
-                            <div class="space-y-4">
-                                <h4 class="text-xl font-bold border-b border-blue-700 pb-2">The AI Edge</h4>
-                                <p class="text-blue-100 opacity-80 leading-relaxed">Rovo extracts Technical Standards (RTS) and maps gaps to existing Forge/Jira workflows instantly.</p>
-                            </div>
-                        </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 h-full items-center animate-content">
+                <div class="space-y-10">
+                    <div class="bg-indigo-900 rounded-[2.5rem] p-10 text-white shadow-2xl relative overflow-hidden">
+                        <div class="absolute -right-6 -top-6 text-white opacity-10"><i data-lucide="scale" class="w-48 h-48"></i></div>
+                        <h3 class="text-indigo-300 font-bold uppercase tracking-widest mb-4 text-sm">The "New Law" Scenario</h3>
+                        <h2 class="text-3xl font-black mb-6 leading-tight">"Report all breaches within <span class="text-yellow-400">72 Hours</span>."</h2>
+                        <p class="text-indigo-100 text-lg leading-relaxed opacity-90">A strict new government mandate drops. Failure to comply means millions in fines.</p>
                     </div>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                        <div class="bg-white p-8 rounded-[2.5rem] shadow-xl border border-slate-100">
-                            <h4 class="font-bold text-slate-900 mb-2">Tier 1 Strategy</h4>
-                            <p class="text-slate-500">Used for basic automated reporting across all vendors.</p>
+                    
+                    <div class="bg-white p-8 rounded-3xl border-l-[6px] border-red-500 shadow-xl">
+                        <div class="flex items-center gap-4 mb-3">
+                            <div class="p-2 bg-red-100 text-red-600 rounded-lg"><i data-lucide="x-circle" class="w-6 h-6"></i></div>
+                            <h4 class="font-bold text-slate-900 text-xl">The Old Way</h4>
                         </div>
-                        <div class="bg-white p-8 rounded-[2.5rem] shadow-xl border border-slate-100">
-                            <h4 class="font-bold text-slate-900 mb-2">Tier 2 Integration</h4>
-                            <p class="text-slate-500">Full ICT risk management with 48-hour 'Max Velocity' remediation paths.</p>
-                        </div>
+                        <p class="text-slate-600">Legal sends an email. IT Operations misses the memo. <br/><span class="font-bold text-red-600">Result: Non-Compliance at 2 AM.</span></p>
                     </div>
                 </div>
-                <div class="bg-slate-900 p-10 rounded-[3rem] text-white flex flex-col justify-between shadow-2xl">
-                    <div>
-                        <div class="p-4 bg-blue-600 rounded-3xl w-fit mb-8 shadow-lg"><i data-lucide="activity" class="w-8 h-8"></i></div>
-                        <h4 class="text-2xl font-black mb-4">Standard Delivery</h4>
-                        <div class="text-5xl font-black text-blue-500 mb-2">3-5 Days</div>
-                        <p class="text-slate-400">Total cycle for cross-border regulatory interpretation & mapping.</p>
+
+                <div class="flex flex-col gap-8">
+                    <div class="bg-white p-10 rounded-[2.5rem] border border-blue-100 shadow-xl relative overflow-hidden">
+                        <div class="absolute top-0 left-0 w-2 h-full bg-blue-500"></div>
+                        <h3 class="flex items-center gap-3 text-2xl font-black text-slate-900 mb-6">
+                            <i data-lucide="sparkles" class="w-8 h-8 text-blue-500"></i>
+                            The AI Transformation
+                        </h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex gap-4">
+                                <div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center text-blue-600 font-bold shrink-0">1</div>
+                                <div><h4 class="font-bold text-slate-900">Interpretation</h4><p class="text-slate-500">AI reads the law and extracts the "72-Hour" variable.</p></div>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center text-blue-600 font-bold shrink-0">2</div>
+                                <div><h4 class="font-bold text-slate-900">Adaptation</h4><p class="text-slate-500">System auto-updates the <span class="font-mono text-xs bg-slate-100 px-2 py-1 rounded">Incident_SLA</span> field in Jira.</p></div>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center text-blue-600 font-bold shrink-0">3</div>
+                                <div><h4 class="font-bold text-slate-900">Enforcement</h4><p class="text-slate-500">The software alerts staff automatically. Compliance is guaranteed.</p></div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="pt-10 border-t border-slate-800">
-                        <div class="text-sm font-bold text-slate-500 uppercase tracking-widest mb-4">Audit Readiness</div>
-                        <div class="flex items-center gap-4"><div class="h-3 w-3 bg-emerald-500 rounded-full animate-pulse"></div><span class="text-lg">Real-time Trail</span></div>
+
+                    <div class="bg-emerald-50 rounded-2xl p-6 border border-emerald-100 flex items-center justify-between">
+                         <div>
+                            <div class="text-xs uppercase font-bold text-emerald-800 tracking-wider mb-1">Impact</div>
+                            <div class="text-xl font-bold text-emerald-900">Audit-Ready Instantly</div>
+                         </div>
+                         <div class="h-12 w-12 bg-white rounded-full flex items-center justify-center text-emerald-600 shadow-sm"><i data-lucide="check" class="w-6 h-6"></i></div>
                     </div>
                 </div>
             </div>
@@ -445,7 +458,7 @@ function setupDots() {
 function updateNotesUI() {
     const slide = SLIDES[currentIndex];
     notesBody.innerHTML = slide.speakerNotes ? slide.speakerNotes.split('\n\n').map(p => `<p class="mb-4">${p}</p>`).join('') : '<p class="italic opacity-50">No notes for this slide.</p>';
-    
+
     if (notesOpen) {
         notesDrawer.classList.add('open');
         mainStage.classList.add('pr-80', 'lg:pr-96');
@@ -463,23 +476,23 @@ function render(index, direction = 'next') {
     stage.classList.add(exitClass);
 
     const moveX = (index / TOTAL) * 100;
-    bgBlob1.style.transform = `translate(${moveX}px, ${moveX/2}px)`;
-    bgBlob2.style.transform = `translate(-${moveX}px, -${moveX/2}px)`;
+    bgBlob1.style.transform = `translate(${moveX}px, ${moveX / 2}px)`;
+    bgBlob2.style.transform = `translate(-${moveX}px, -${moveX / 2}px)`;
 
     setTimeout(() => {
         currentIndex = index;
         const slide = SLIDES[index];
         stage.innerHTML = `<div class="animate-content w-full h-full flex flex-col justify-center">${slide.html}</div>`;
-        
+
         stage.classList.remove(exitClass);
         stage.classList.add(entryClass);
-        
+
         titleHeader.textContent = slide.title;
         const pct = Math.round(((index + 1) / TOTAL) * 100);
         progressBar.style.width = `${pct}%`;
         progressTxt.textContent = `${pct}%`;
         indexLabel.textContent = `${String(index + 1).padStart(2, '0')} / ${TOTAL}`;
-        
+
         btnPrev.disabled = index === 0;
         btnNext.disabled = index === TOTAL - 1;
         hitboxLeft.disabled = index === 0;
@@ -523,7 +536,7 @@ function downloadPPT() {
 
     SLIDES.forEach((slideData, idx) => {
         const slide = pptx.addSlide({ masterName: 'MASTER' });
-        
+
         // Include Speaker Notes in PPT
         if (slideData.speakerNotes) {
             slide.notes = slideData.speakerNotes;

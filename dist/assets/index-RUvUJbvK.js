@@ -140,52 +140,59 @@ We use AI to bridge the gap to Tier 2: 'Risk-Informed.' This means move away fro
                     </div>
                 </div>
             </div>
-        `},{title:"Use Case: DORA/NIS2 Mandatory Transition",pptTitle:"Use Case: DORA/NIS2 Mandatory Transition",pptBody:["Context: EU Financial entity facing Oct 2024 compliance.","Action: AI monitors EBA Technical Standards (RTS) in real-time.","Mapping: Automating the linking of RTS to internal ICT risk controls.","Impact: Moving from 'Informal Reactive' to 'Mandatory Compliant' in days, not months."],speakerNotes:`Let's deep-dive into the DORA and NIS2 transition. Regulatory Change Management (RCM) is overwhelming because of the volume. AI brings speed to every stage. 
+        `},{title:"Institutional Use Case: Cyber Security",pptTitle:"Institutional Use Case: Cyber Security",pptBody:["Scenario: New '72-Hour' Breach Reporting Law.","The Challenge: Aligning 5,000+ staff to a critical deadline.","Manual Risk: Emails ignored, SLAs missed, fines levied.","The AI Solution: Auto-updates Jira workflows to enforce new time limit.","Outcome: Compliance is code, not just policy."],speakerNotes:`Let's discuss a real-world institutional use case. Imagine a new Cyber Security regulation passes that mandates: 'All data breaches must be reported within 72 hours.'
 
-Step 1 — Automated Monitoring: AI scans thousands of regulatory sources in real-time. Using AI regulatory intelligence, NLP engines detect new rules the moment they are published.
-Step 2 — NLP Interpretation: AI extracts meaning from complex legal documents, identifies obligations, and converts them into structured Jira data, summarizing 100-page RTS documents into actionable tasks.
-Step 3 — AI Regulatory Mapping: AI links new obligations directly to internal policies and controls in Confluence, highlighting exactly where documentation or training must be updated.
-Step 4 — AI Risk Scoring: Assigning risk categories based on deadlines and severity to prioritize high-risk updates like AML or cybersecurity patches.
-Step 5 — AI Workflow Automation: Automatically triggering remediation tasks in Jira once a new requirement is mapped.
-Step 6 — Audit Readiness: Generating detailed audit trails instantly for regulatory examinations. We move from 'Reactive Recovery' to 'Proactive Prevention' in days, not months.`,html:`
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 h-full items-stretch animate-content">
-                <div class="lg:col-span-2 flex flex-col gap-8">
-                    <div class="bg-blue-900 p-12 rounded-[3rem] text-white shadow-2xl flex-1 relative overflow-hidden">
-                        <div class="absolute top-0 right-0 p-10 opacity-10"><i data-lucide="landmark" class="w-40 h-40"></i></div>
-                        <h3 class="text-blue-400 font-bold uppercase tracking-widest mb-6">Institutional Use Case</h3>
-                        <h2 class="text-4xl font-black mb-8 leading-tight">Implementing Digital <br/>Operational Resilience (DORA)</h2>
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-                            <div class="space-y-4">
-                                <h4 class="text-xl font-bold border-b border-blue-700 pb-2">The Challenge</h4>
-                                <p class="text-blue-100 opacity-80 leading-relaxed">Managing 10,000+ third-party ICT service providers under new, strict EU resilience standards.</p>
-                            </div>
-                            <div class="space-y-4">
-                                <h4 class="text-xl font-bold border-b border-blue-700 pb-2">The AI Edge</h4>
-                                <p class="text-blue-100 opacity-80 leading-relaxed">Rovo extracts Technical Standards (RTS) and maps gaps to existing Forge/Jira workflows instantly.</p>
-                            </div>
-                        </div>
+In the old manual world, this is a nightmare. Layers of bureaucracy, emails, and meetings. But when a breach actually happens at 2 AM, the engineer on call might follow an old playbook, miss the deadline, and the institution faces massive fines.
+
+With AI, the system monitors the law. It detects the '72-Hour' requirement and instantly finds your 'Incident Response' workflow in Jira. It proposes a change: 'Update SLA to 3 days.' Once approved, the tool itself enforces the law. We stop relying on human memory and start baking compliance directly into our operations.`,html:`
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 h-full items-center animate-content">
+                <div class="space-y-10">
+                    <div class="bg-indigo-900 rounded-[2.5rem] p-10 text-white shadow-2xl relative overflow-hidden">
+                        <div class="absolute -right-6 -top-6 text-white opacity-10"><i data-lucide="scale" class="w-48 h-48"></i></div>
+                        <h3 class="text-indigo-300 font-bold uppercase tracking-widest mb-4 text-sm">The "New Law" Scenario</h3>
+                        <h2 class="text-3xl font-black mb-6 leading-tight">"Report all breaches within <span class="text-yellow-400">72 Hours</span>."</h2>
+                        <p class="text-indigo-100 text-lg leading-relaxed opacity-90">A strict new government mandate drops. Failure to comply means millions in fines.</p>
                     </div>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                        <div class="bg-white p-8 rounded-[2.5rem] shadow-xl border border-slate-100">
-                            <h4 class="font-bold text-slate-900 mb-2">Tier 1 Strategy</h4>
-                            <p class="text-slate-500">Used for basic automated reporting across all vendors.</p>
+                    
+                    <div class="bg-white p-8 rounded-3xl border-l-[6px] border-red-500 shadow-xl">
+                        <div class="flex items-center gap-4 mb-3">
+                            <div class="p-2 bg-red-100 text-red-600 rounded-lg"><i data-lucide="x-circle" class="w-6 h-6"></i></div>
+                            <h4 class="font-bold text-slate-900 text-xl">The Old Way</h4>
                         </div>
-                        <div class="bg-white p-8 rounded-[2.5rem] shadow-xl border border-slate-100">
-                            <h4 class="font-bold text-slate-900 mb-2">Tier 2 Integration</h4>
-                            <p class="text-slate-500">Full ICT risk management with 48-hour 'Max Velocity' remediation paths.</p>
-                        </div>
+                        <p class="text-slate-600">Legal sends an email. IT Operations misses the memo. <br/><span class="font-bold text-red-600">Result: Non-Compliance at 2 AM.</span></p>
                     </div>
                 </div>
-                <div class="bg-slate-900 p-10 rounded-[3rem] text-white flex flex-col justify-between shadow-2xl">
-                    <div>
-                        <div class="p-4 bg-blue-600 rounded-3xl w-fit mb-8 shadow-lg"><i data-lucide="activity" class="w-8 h-8"></i></div>
-                        <h4 class="text-2xl font-black mb-4">Standard Delivery</h4>
-                        <div class="text-5xl font-black text-blue-500 mb-2">3-5 Days</div>
-                        <p class="text-slate-400">Total cycle for cross-border regulatory interpretation & mapping.</p>
+
+                <div class="flex flex-col gap-8">
+                    <div class="bg-white p-10 rounded-[2.5rem] border border-blue-100 shadow-xl relative overflow-hidden">
+                        <div class="absolute top-0 left-0 w-2 h-full bg-blue-500"></div>
+                        <h3 class="flex items-center gap-3 text-2xl font-black text-slate-900 mb-6">
+                            <i data-lucide="sparkles" class="w-8 h-8 text-blue-500"></i>
+                            The AI Transformation
+                        </h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex gap-4">
+                                <div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center text-blue-600 font-bold shrink-0">1</div>
+                                <div><h4 class="font-bold text-slate-900">Interpretation</h4><p class="text-slate-500">AI reads the law and extracts the "72-Hour" variable.</p></div>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center text-blue-600 font-bold shrink-0">2</div>
+                                <div><h4 class="font-bold text-slate-900">Adaptation</h4><p class="text-slate-500">System auto-updates the <span class="font-mono text-xs bg-slate-100 px-2 py-1 rounded">Incident_SLA</span> field in Jira.</p></div>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center text-blue-600 font-bold shrink-0">3</div>
+                                <div><h4 class="font-bold text-slate-900">Enforcement</h4><p class="text-slate-500">The software alerts staff automatically. Compliance is guaranteed.</p></div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="pt-10 border-t border-slate-800">
-                        <div class="text-sm font-bold text-slate-500 uppercase tracking-widest mb-4">Audit Readiness</div>
-                        <div class="flex items-center gap-4"><div class="h-3 w-3 bg-emerald-500 rounded-full animate-pulse"></div><span class="text-lg">Real-time Trail</span></div>
+
+                    <div class="bg-emerald-50 rounded-2xl p-6 border border-emerald-100 flex items-center justify-between">
+                         <div>
+                            <div class="text-xs uppercase font-bold text-emerald-800 tracking-wider mb-1">Impact</div>
+                            <div class="text-xl font-bold text-emerald-900">Audit-Ready Instantly</div>
+                         </div>
+                         <div class="h-12 w-12 bg-white rounded-full flex items-center justify-center text-emerald-600 shadow-sm"><i data-lucide="check" class="w-6 h-6"></i></div>
                     </div>
                 </div>
             </div>
@@ -313,6 +320,6 @@ With AI-powered change management, the system doesn't just look at the ticket te
                    <h3 class="text-4xl font-black italic text-blue-300">Modernize your ITSM today.</h3>
                 </div>
             </div>
-        `}];let l=0;const n=u.length;let c=!1;const d=document.getElementById("slide-content"),h=document.getElementById("main-stage"),A=document.getElementById("header-slide-title"),S=document.getElementById("top-progress-bar"),T=document.getElementById("progress-percent"),C=document.getElementById("slide-index-label"),v=document.getElementById("nav-dots"),y=document.getElementById("nav-next"),w=document.getElementById("nav-prev"),k=document.getElementById("hitbox-left"),I=document.getElementById("hitbox-right"),R=document.getElementById("download-ppt"),B=document.getElementById("download-pdf"),M=document.getElementById("toggle-notes"),L=document.getElementById("close-notes"),b=document.getElementById("notes-drawer"),E=document.getElementById("notes-body"),f=document.getElementById("print-container"),N=document.getElementById("bg-blob-1"),P=document.getElementById("bg-blob-2");function O(){v.innerHTML="";for(let e=0;e<n;e++){const s=document.createElement("button");s.className=`h-2 rounded-full transition-all duration-500 ${e===l?"bg-blue-600 w-8":"bg-slate-300 w-2 hover:bg-slate-400"}`,s.onclick=()=>D(e),v.appendChild(s)}}function g(){const e=u[l];E.innerHTML=e.speakerNotes?e.speakerNotes.split(`
+        `}];let l=0;const n=u.length;let c=!1;const d=document.getElementById("slide-content"),h=document.getElementById("main-stage"),A=document.getElementById("header-slide-title"),S=document.getElementById("top-progress-bar"),T=document.getElementById("progress-percent"),C=document.getElementById("slide-index-label"),v=document.getElementById("nav-dots"),y=document.getElementById("nav-next"),w=document.getElementById("nav-prev"),k=document.getElementById("hitbox-left"),I=document.getElementById("hitbox-right"),B=document.getElementById("download-ppt"),L=document.getElementById("download-pdf"),R=document.getElementById("toggle-notes"),M=document.getElementById("close-notes"),f=document.getElementById("notes-drawer"),E=document.getElementById("notes-body"),b=document.getElementById("print-container"),N=document.getElementById("bg-blob-1"),P=document.getElementById("bg-blob-2");function O(){v.innerHTML="";for(let e=0;e<n;e++){const s=document.createElement("button");s.className=`h-2 rounded-full transition-all duration-500 ${e===l?"bg-blue-600 w-8":"bg-slate-300 w-2 hover:bg-slate-400"}`,s.onclick=()=>j(e),v.appendChild(s)}}function x(){const e=u[l];E.innerHTML=e.speakerNotes?e.speakerNotes.split(`
 
-`).map(s=>`<p class="mb-4">${s}</p>`).join(""):'<p class="italic opacity-50">No notes for this slide.</p>',c?(b.classList.add("open"),h.classList.add("pr-80","lg:pr-96")):(b.classList.remove("open"),h.classList.remove("pr-80","lg:pr-96"))}function p(e,s="next"){const i=s==="next"?"exit-left":"exit-right",o=s==="next"?"enter-right":"enter-left";d.classList.remove("slide-active"),d.classList.add(i);const t=e/n*100;N.style.transform=`translate(${t}px, ${t/2}px)`,P.style.transform=`translate(-${t}px, -${t/2}px)`,setTimeout(()=>{l=e;const a=u[e];d.innerHTML=`<div class="animate-content w-full h-full flex flex-col justify-center">${a.html}</div>`,d.classList.remove(i),d.classList.add(o),A.textContent=a.title;const r=Math.round((e+1)/n*100);S.style.width=`${r}%`,T.textContent=`${r}%`,C.textContent=`${String(e+1).padStart(2,"0")} / ${n}`,w.disabled=e===0,y.disabled=e===n-1,k.disabled=e===0,I.disabled=e===n-1,O(),g(),lucide.createIcons(),requestAnimationFrame(()=>{d.classList.remove(o),d.classList.add("slide-active")})},300)}function m(){l<n-1&&p(l+1,"next")}function x(){l>0&&p(l-1,"prev")}function D(e){e>l?p(e,"next"):e<l&&p(e,"prev")}function F(){const e=new PptxGenJS;e.layout="LAYOUT_16x9";const s={primary:"2563EB",textDark:"0F172A",textLight:"475569",bg:"F8FAFC"};e.defineSlideMaster({title:"MASTER",background:{fill:s.bg},objects:[{rect:{x:0,y:0,w:"100%",h:.1,fill:{color:s.primary}}},{text:{text:"DEVINITI AI",options:{x:.5,y:.2,fontFace:"Arial",fontSize:14,color:s.primary,bold:!0}}}]}),u.forEach((i,o)=>{const t=e.addSlide({masterName:"MASTER"});i.speakerNotes&&(t.notes=i.speakerNotes),t.addText(i.pptTitle,{x:.5,y:.8,w:"90%",fontSize:32,fontFace:"Arial",bold:!0,color:s.textDark}),i.pptBody&&t.addText(i.pptBody.map(a=>({text:a,options:{bullet:!0}})),{x:.5,y:1.8,w:"90%",fontSize:18,fontFace:"Arial",color:s.textLight,lineSpacing:28}),t.addText(`Slide ${o+1} / ${n}`,{x:"85%",y:"92%",fontSize:10,color:s.textLight,align:"right"})}),e.writeFile({fileName:"Deviniti_AI_Change_Management.pptx"})}function j(){f.innerHTML="",u.forEach(e=>{const s=document.createElement("div");s.className="print-slide",s.innerHTML=e.html,f.appendChild(s)}),lucide.createIcons(),setTimeout(()=>window.print(),800)}y.onclick=m;w.onclick=x;k.onclick=x;I.onclick=m;R.onclick=F;B.onclick=j;M.onclick=()=>{c=!c,g()};L.onclick=()=>{c=!1,g()};window.addEventListener("keydown",e=>{(e.key==="ArrowRight"||e.key===" ")&&m(),e.key==="ArrowLeft"&&x(),(e.key==="n"||e.key==="N")&&(c=!c,g())});p(0);
+`).map(s=>`<p class="mb-4">${s}</p>`).join(""):'<p class="italic opacity-50">No notes for this slide.</p>',c?(f.classList.add("open"),h.classList.add("pr-80","lg:pr-96")):(f.classList.remove("open"),h.classList.remove("pr-80","lg:pr-96"))}function p(e,s="next"){const i=s==="next"?"exit-left":"exit-right",o=s==="next"?"enter-right":"enter-left";d.classList.remove("slide-active"),d.classList.add(i);const t=e/n*100;N.style.transform=`translate(${t}px, ${t/2}px)`,P.style.transform=`translate(-${t}px, -${t/2}px)`,setTimeout(()=>{l=e;const a=u[e];d.innerHTML=`<div class="animate-content w-full h-full flex flex-col justify-center">${a.html}</div>`,d.classList.remove(i),d.classList.add(o),A.textContent=a.title;const r=Math.round((e+1)/n*100);S.style.width=`${r}%`,T.textContent=`${r}%`,C.textContent=`${String(e+1).padStart(2,"0")} / ${n}`,w.disabled=e===0,y.disabled=e===n-1,k.disabled=e===0,I.disabled=e===n-1,O(),x(),lucide.createIcons(),requestAnimationFrame(()=>{d.classList.remove(o),d.classList.add("slide-active")})},300)}function m(){l<n-1&&p(l+1,"next")}function g(){l>0&&p(l-1,"prev")}function j(e){e>l?p(e,"next"):e<l&&p(e,"prev")}function D(){const e=new PptxGenJS;e.layout="LAYOUT_16x9";const s={primary:"2563EB",textDark:"0F172A",textLight:"475569",bg:"F8FAFC"};e.defineSlideMaster({title:"MASTER",background:{fill:s.bg},objects:[{rect:{x:0,y:0,w:"100%",h:.1,fill:{color:s.primary}}},{text:{text:"DEVINITI AI",options:{x:.5,y:.2,fontFace:"Arial",fontSize:14,color:s.primary,bold:!0}}}]}),u.forEach((i,o)=>{const t=e.addSlide({masterName:"MASTER"});i.speakerNotes&&(t.notes=i.speakerNotes),t.addText(i.pptTitle,{x:.5,y:.8,w:"90%",fontSize:32,fontFace:"Arial",bold:!0,color:s.textDark}),i.pptBody&&t.addText(i.pptBody.map(a=>({text:a,options:{bullet:!0}})),{x:.5,y:1.8,w:"90%",fontSize:18,fontFace:"Arial",color:s.textLight,lineSpacing:28}),t.addText(`Slide ${o+1} / ${n}`,{x:"85%",y:"92%",fontSize:10,color:s.textLight,align:"right"})}),e.writeFile({fileName:"Deviniti_AI_Change_Management.pptx"})}function F(){b.innerHTML="",u.forEach(e=>{const s=document.createElement("div");s.className="print-slide",s.innerHTML=e.html,b.appendChild(s)}),lucide.createIcons(),setTimeout(()=>window.print(),800)}y.onclick=m;w.onclick=g;k.onclick=g;I.onclick=m;B.onclick=D;L.onclick=F;R.onclick=()=>{c=!c,x()};M.onclick=()=>{c=!1,x()};window.addEventListener("keydown",e=>{(e.key==="ArrowRight"||e.key===" ")&&m(),e.key==="ArrowLeft"&&g(),(e.key==="n"||e.key==="N")&&(c=!c,x())});p(0);
