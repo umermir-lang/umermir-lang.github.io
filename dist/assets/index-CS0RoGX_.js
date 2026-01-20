@@ -105,41 +105,6 @@
                     <div><h3 class="text-2xl font-bold text-slate-900 mb-3">Healthcare</h3><p class="text-slate-600 text-lg leading-relaxed">Strict regulatory oversight (HIPAA) and slow clinical governance cycles.</p></div>
                 </div>
             </div>
-        `},{title:"Banking & Cyber Governance Frameworks",pptTitle:"Banking & Cyber Governance Frameworks",pptBody:["NIST CSF Tiers: Mapping from Tier 1 (Partial/Ad-hoc) to Tier 2 (Risk-Informed).","EU Mandates: Accelerating DORA and NIS2 (Oct 2024 deadlines).","Maturity Shift: Moving reactive governance into proactive risk management.","Efficiency: 3-5 day standard AI-augmented cycles for standard changes."],speakerNotes:`Most Tier 1 banking institutions currently operate in 'NIST Tier 1 maturity'—risk management is ad-hoc, informal, and reactive. However, new EU mandates like NIS2 (which hit national laws in Oct 2024) and DORA (for finance) are making this manual approach legally untenable. 
-
-We use AI to bridge the gap to Tier 2: 'Risk-Informed.' This means move away from 'hope-based' compliance to 'verified' compliance. AI regulatory intelligence can scan thousands of regulatory sources in real-time. Organizations no longer need to manually review websites or track newsletters. Using AI regulatory intelligence, NLP engines detect new rules the moment they are published and flag updates relevant specifically to your Jira tickets. We're talking about reducing a 30-day manual cross-referencing slog into a 3–5 day AI-augmented governance cycle that still maintains strict institutional human-in-the-loop oversight.`,html:`
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-16 h-full items-center animate-content">
-                <div class="space-y-10">
-                    <div class="bg-slate-900 rounded-[2rem] p-8 text-white shadow-2xl relative overflow-hidden">
-                        <h3 class="text-blue-400 font-black uppercase tracking-[0.2em] text-sm mb-4">Maturity Standards</h3>
-                        <h2 class="text-4xl font-black mb-6">NIST CSF & EU <br/>Governance Tiers</h2>
-                        <div class="space-y-4 text-slate-300">
-                           <div class="flex gap-4"><div class="font-bold text-white min-w-[80px]">Tier 1:</div><p>Partial/Ad-hoc. Reactive and informal risk management.</p></div>
-                           <div class="flex gap-4"><div class="font-bold text-blue-400 min-w-[80px]">Tier 2:</div><p>Risk-Informed. AI-driven consistency and institutional awareness.</p></div>
-                        </div>
-                    </div>
-                    <div class="grid grid-cols-1 gap-6">
-                        <div class="bg-white p-6 rounded-2xl border-l-[6px] border-blue-600 shadow-lg flex gap-5 items-center">
-                            <div class="p-3 bg-blue-50 text-blue-600 rounded-xl"><i data-lucide="shield-check" class="w-8 h-8"></i></div>
-                            <div>
-                                <h4 class="font-bold text-slate-900">Mandatory Shift</h4>
-                                <p class="text-slate-500 text-sm">NIS2 and DORA require formal maturity levels by law.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex flex-col gap-8">
-                    <div class="bg-blue-600 p-10 rounded-[2.5rem] text-white shadow-2xl relative">
-                        <div class="text-xs uppercase font-black tracking-widest opacity-60 mb-2">Cycle Time Reduction</div>
-                        <div class="text-6xl font-black mb-4">~10x Faster</div>
-                        <p class="text-blue-100 leading-relaxed">Standardizing manual cross-referencing into AI-verified compliance trails that meet Tier 1 institutional standards.</p>
-                    </div>
-                    <div class="bg-white p-10 rounded-[2.5rem] border border-slate-100 shadow-xl">
-                        <h4 class="font-black text-slate-900 uppercase tracking-widest text-xs mb-4">Target Outcome</h4>
-                        <p class="text-slate-600 italic font-medium">"Transitioning from informal 30-day manual review to 3–5 day AI-augmented governance for a 'Risk-Informed' posture."</p>
-                    </div>
-                </div>
-            </div>
         `},{title:"Institutional Use Case: Cyber Security",pptTitle:"Institutional Use Case: Cyber Security",pptBody:["Scenario: New '72-Hour' Breach Reporting Law.","The Challenge: Aligning 5,000+ staff to a critical deadline.","Manual Risk: Emails ignored, SLAs missed, fines levied.","The AI Solution: Auto-updates Jira workflows to enforce new time limit.","Outcome: Compliance is code, not just policy."],speakerNotes:`Let's discuss a real-world institutional use case. Imagine a new Cyber Security regulation passes that mandates: 'All data breaches must be reported within 72 hours.'
 
 In the old manual world, this is a nightmare. Layers of bureaucracy, emails, and meetings. But when a breach actually happens at 2 AM, the engineer on call might follow an old playbook, miss the deadline, and the institution faces massive fines.
@@ -193,6 +158,41 @@ With AI, the system monitors the law. It detects the '72-Hour' requirement and i
                             <div class="text-xl font-bold text-emerald-900">Audit-Ready Instantly</div>
                          </div>
                          <div class="h-12 w-12 bg-white rounded-full flex items-center justify-center text-emerald-600 shadow-sm"><i data-lucide="check" class="w-6 h-6"></i></div>
+                    </div>
+                </div>
+            </div>
+        `},{title:"Banking & Cyber Governance Frameworks",pptTitle:"Banking & Cyber Governance Frameworks",pptBody:["NIST CSF Tiers: Mapping from Tier 1 (Partial/Ad-hoc) to Tier 2 (Risk-Informed).","EU Mandates: Accelerating DORA and NIS2 (Oct 2024 deadlines).","Maturity Shift: Moving reactive governance into proactive risk management.","Efficiency: 3-5 day standard AI-augmented cycles for standard changes."],speakerNotes:`Most Tier 1 banking institutions currently operate in 'NIST Tier 1 maturity'—risk management is ad-hoc, informal, and reactive. However, new EU mandates like NIS2 (which hit national laws in Oct 2024) and DORA (for finance) are making this manual approach legally untenable. 
+
+We use AI to bridge the gap to Tier 2: 'Risk-Informed.' This means move away from 'hope-based' compliance to 'verified' compliance. AI regulatory intelligence can scan thousands of regulatory sources in real-time. Organizations no longer need to manually review websites or track newsletters. Using AI regulatory intelligence, NLP engines detect new rules the moment they are published and flag updates relevant specifically to your Jira tickets. We're talking about reducing a 30-day manual cross-referencing slog into a 3–5 day AI-augmented governance cycle that still maintains strict institutional human-in-the-loop oversight.`,html:`
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-16 h-full items-center animate-content">
+                <div class="space-y-10">
+                    <div class="bg-slate-900 rounded-[2rem] p-8 text-white shadow-2xl relative overflow-hidden">
+                        <h3 class="text-blue-400 font-black uppercase tracking-[0.2em] text-sm mb-4">Maturity Standards</h3>
+                        <h2 class="text-4xl font-black mb-6">NIST CSF & EU <br/>Governance Tiers</h2>
+                        <div class="space-y-4 text-slate-300">
+                           <div class="flex gap-4"><div class="font-bold text-white min-w-[80px]">Tier 1:</div><p>Partial/Ad-hoc. Reactive and informal risk management.</p></div>
+                           <div class="flex gap-4"><div class="font-bold text-blue-400 min-w-[80px]">Tier 2:</div><p>Risk-Informed. AI-driven consistency and institutional awareness.</p></div>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 gap-6">
+                        <div class="bg-white p-6 rounded-2xl border-l-[6px] border-blue-600 shadow-lg flex gap-5 items-center">
+                            <div class="p-3 bg-blue-50 text-blue-600 rounded-xl"><i data-lucide="shield-check" class="w-8 h-8"></i></div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">Mandatory Shift</h4>
+                                <p class="text-slate-500 text-sm">NIS2 and DORA require formal maturity levels by law.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-8">
+                    <div class="bg-blue-600 p-10 rounded-[2.5rem] text-white shadow-2xl relative">
+                        <div class="text-xs uppercase font-black tracking-widest opacity-60 mb-2">Cycle Time Reduction</div>
+                        <div class="text-6xl font-black mb-4">~10x Faster</div>
+                        <p class="text-blue-100 leading-relaxed">Standardizing manual cross-referencing into AI-verified compliance trails that meet Tier 1 institutional standards.</p>
+                    </div>
+                    <div class="bg-white p-10 rounded-[2.5rem] border border-slate-100 shadow-xl">
+                        <h4 class="font-black text-slate-900 uppercase tracking-widest text-xs mb-4">Target Outcome</h4>
+                        <p class="text-slate-600 italic font-medium">"Transitioning from informal 30-day manual review to 3–5 day AI-augmented governance for a 'Risk-Informed' posture."</p>
                     </div>
                 </div>
             </div>
